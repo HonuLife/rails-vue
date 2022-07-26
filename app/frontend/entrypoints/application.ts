@@ -15,7 +15,6 @@
 
 // Example: Load Rails libraries in Vite.
 //
-//
 // import ActiveStorage from '@rails/activestorage'
 //
 // // Import all channels.
