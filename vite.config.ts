@@ -5,9 +5,12 @@ import WindiCSS from 'vite-plugin-windicss';
 import RubyPlugin from 'vite-plugin-ruby'
 
 export default defineConfig({
+<<<<<<< HEAD
   server: {
     open: "http://localhost:3000"
   },
+=======
+>>>>>>> 58e2959 (Initial commit)
   plugins: [
     FullReload(['config/routes.rb', 'app/views/**/*']),
     StimulusHMR(),
