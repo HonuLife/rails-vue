@@ -20,7 +20,7 @@
 // // Import all channels.
 // import.meta.globEager('./**/*_channel.js')
 //
-// Turbolinks.start()
+import "@hotwired/turbo-rails";
 // ActiveStorage.start()
 
 // Example: Import a stylesheet in app/frontend/index.css

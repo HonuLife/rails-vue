@@ -19,6 +19,23 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@hotwired/turbo-rails@npm:^7.1.3":
+  version: 7.1.3
+  resolution: "@hotwired/turbo-rails@npm:7.1.3"
+  dependencies:
+    "@hotwired/turbo": ^7.1.0
+    "@rails/actioncable": ^7.0
+  checksum: 7f741b50dbb46bf297c82e48a31b1b485c6f9bcc508616b812ba8ff8cbb69366a81157419990d196b3926d4169c2766650699f61b6da47d02eafc976767f091e
+  languageName: node
+  linkType: hard
+
+"@hotwired/turbo@npm:^7.1.0":
+  version: 7.1.0
+  resolution: "@hotwired/turbo@npm:7.1.0"
+  checksum: 4f71ebf2ff6a396d4031d048fa4d4dba6039aed9ad68436e6df4527e975acd8427c7d2f9b3e7f61f3e9c1af987193adf4e2b640c4033d4afd3e1f914ed05ba9f
+  languageName: node
+  linkType: hard
+
 "@nodelib/fs.scandir@npm:2.1.5":
   version: 2.1.5
   resolution: "@nodelib/fs.scandir@npm:2.1.5"
@@ -66,23 +83,30 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@rails/actiontext@npm:^6.1.4-1":
-  version: 6.1.4-1
-  resolution: "@rails/actiontext@npm:6.1.4-1"
-  dependencies:
-    "@rails/activestorage": ^6.0.0
-  peerDependencies:
-    trix: ^1.2.0
-  checksum: ba983411eb784ccb8fe9ac6eb1791a1d0e059ec2b32fd4491aface166d75f7d23d478639a24d44b3d6463087a3c5e0d579052014f5c8dd299ae571f0c7ec1775
+"@rails/actioncable@npm:^7.0":
+  version: 7.0.3
+  resolution: "@rails/actioncable@npm:7.0.3"
+  checksum: 6ae5de0f9aaa8261117c2cc8b82ab41854222687422697158de952b8bf04a3f0c9e98620516129f6541970119ee3e4ae8af4b9cd4621c6617c0dae151eb07d64
   languageName: node
   linkType: hard
 
-"@rails/activestorage@npm:^6.0.0":
-  version: 6.1.4
-  resolution: "@rails/activestorage@npm:6.1.4"
+"@rails/actiontext@npm:^7.0.3-1":
+  version: 7.0.3
+  resolution: "@rails/actiontext@npm:7.0.3"
   dependencies:
-    spark-md5: ^3.0.0
-  checksum: fdfacbe5249c1ed5c2aa09fe593bf1689840ef4b590766a5638b81b57c3c6307daaf636974a7d0b0a03ced602313440dc161a209e23f73d018fb530489ba3509
+    "@rails/activestorage": ">= 7.0.0-alpha1"
+  peerDependencies:
+    trix: ^1.3.1
+  checksum: 9179657a4c7da3ca4255219db1cfd8691079a2f3c06ee5370bb94a1bdff00f74b9483713eae0eab032d79011c6328f5f96ee35a31bb9f4f050a7658c187a128d
+  languageName: node
+  linkType: hard
+
+"@rails/activestorage@npm:>= 7.0.0-alpha1":
+  version: 7.0.3
+  resolution: "@rails/activestorage@npm:7.0.3"
+  dependencies:
+    spark-md5: ^3.0.1
+  checksum: 0b087b115a3c3513041601f48c105bf4784701a57a13b356718e32ec72f11d38c26fb7780cecc42d8f5b813025e04f4b0fdd78081dfab41a67054d09748a106f
   languageName: node
   linkType: hard
 
@@ -299,6 +323,18 @@ __metadata:
     supports-color:
       optional: true
   checksum: 820ea160e267e23c953c9ed87e7ad93494d8cda2f7349af5e7e3bb236d23707ee3022f477d5a7d2ee86ef2bf7d60aa9ab22d1f58080d7deb9dccd073585e1e43
+  languageName: node
+  linkType: hard
+
+"debug@npm:^4.3.4":
+  version: 4.3.4
+  resolution: "debug@npm:4.3.4"
+  dependencies:
+    ms: 2.1.2
+  peerDependenciesMeta:
+    supports-color:
+      optional: true
+  checksum: 3dbad3f94ea64f34431a9cbf0bafb61853eda57bff2880036153438f50fb5a84f27683ba0d8e5426bf41a8c6ff03879488120cf5b3a761e77953169c0600a708
   languageName: node
   linkType: hard
 
@@ -567,19 +603,6 @@ __metadata:
     merge2: ^1.3.0
     micromatch: ^4.0.4
   checksum: f473105324a7780a20c06de842e15ddbb41d3cb7e71d1e4fe6e8373204f22245d54f5ab9e2061e6a1c613047345954d29b022e0e76f5c28b1df9858179a0e6d7
-  languageName: node
-  linkType: hard
-
-"fast-glob@npm:^3.2.4":
-  version: 3.2.7
-  resolution: "fast-glob@npm:3.2.7"
-  dependencies:
-    "@nodelib/fs.stat": ^2.0.2
-    "@nodelib/fs.walk": ^1.2.3
-    glob-parent: ^5.1.2
-    merge2: ^1.3.0
-    micromatch: ^4.0.4
-  checksum: 2f4708ff112d2b451888129fdd9a0938db88b105b0ddfd043c064e3c4d3e20eed8d7c7615f7565fee660db34ddcf08a2db1bf0ab3c00b87608e4719694642d78
   languageName: node
   linkType: hard
 
@@ -1244,8 +1267,8 @@ __metadata:
   linkType: hard
 
 "rollup@npm:^2.75.6":
-  version: 2.77.0
-  resolution: "rollup@npm:2.77.0"
+  version: 2.77.1
+  resolution: "rollup@npm:2.77.1"
   dependencies:
     fsevents: ~2.3.2
   dependenciesMeta:
@@ -1253,7 +1276,7 @@ __metadata:
       optional: true
   bin:
     rollup: dist/bin/rollup
-  checksum: 74ccc98429709984a89af636250833e7502d87f1d9c6d96ebfe4b52030ebf94b9f6b84b8ab476670329a61d54b681d35eecdc601bac5b5396b099b1ea69970ef
+  checksum: 57a03a2490cd12008ab96d8ed98f6551bf2c4e328f0bceffdaa8a67a98acaa6221bc9294fc459c800324d8459c0837716c1f428ac2680beddd6bc20e1d8cb98a
   languageName: node
   linkType: hard
 
@@ -1261,13 +1284,14 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "root-workspace-0b6124@workspace:."
   dependencies:
-    "@rails/actiontext": ^6.1.4-1
+    "@hotwired/turbo-rails": ^7.1.3
+    "@rails/actiontext": ^7.0.3-1
     "@rails/activestorage": ^6.1.4-1
     trix: ^1.3.1
     typescript: ^4.6.2
     vite: ^3.0.3
     vite-plugin-full-reload: ^1.0.0
-    vite-plugin-ruby: ^2.0.4
+    vite-plugin-ruby: ^3.1.0
     vite-plugin-stimulus-hmr: ^3.0.0
     vite-plugin-windicss: ^1.8.3
     windicss: ^3.1.8
@@ -1364,7 +1388,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"spark-md5@npm:^3.0.0":
+"spark-md5@npm:^3.0.0, spark-md5@npm:^3.0.1":
   version: 3.0.2
   resolution: "spark-md5@npm:3.0.2"
   checksum: 5feebff0bfabcecf56ba03af3e38fdb068272ed41fbf0a94ff9ef65b9bb9cb1dd69be3684db6542e62497b1eac3ae324c07ac4dcb606465dc36ca048177077bf
@@ -1508,15 +1532,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite-plugin-ruby@npm:^2.0.4":
-  version: 2.0.5
-  resolution: "vite-plugin-ruby@npm:2.0.5"
+"vite-plugin-ruby@npm:^3.1.0":
+  version: 3.1.2
+  resolution: "vite-plugin-ruby@npm:3.1.2"
   dependencies:
-    debug: ^4.3.1
-    fast-glob: ^3.2.4
+    debug: ^4.3.4
+    fast-glob: ^3.2.11
   peerDependencies:
-    vite: ">=2.2.0"
-  checksum: 65f10fcadf453f0f65a6b50596b6b1375bde0958553b102dc8a0937968978d18bb36b1b9ada772f6c75a455274720eb0581d59a6ec9d29cc1733b66ae1e2cd11
+    vite: ">=2.5.0"
+  checksum: 72dc5cd671daadc8bdd0d6c2f71fb641c189ca7ca53c6196d5ae52a60f21a4e664bbc54a31ded51a5ca603be05581533216be6fd45233a8f4dfd4dd81b429e27
   languageName: node
   linkType: hard
 
