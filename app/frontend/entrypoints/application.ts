@@ -27,9 +27,6 @@ import "@hotwired/turbo-rails";
 // Example: Import a stylesheet in app/frontend/index.css
 // import '~/index.css'
 
-// Stimulus.js
-import "~/controllers"
-
 // WindiCSS
 import 'virtual:windi-base.css'
 import 'virtual:windi-components.css'
