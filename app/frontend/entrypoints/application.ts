@@ -30,9 +30,6 @@ import "@hotwired/turbo-rails";
 // Stimulus.js
 import "~/controllers"
 
-// Catalyst Web Components
-import "~/components";
-
 // WindiCSS
 import 'virtual:windi-base.css'
 import 'virtual:windi-components.css'
