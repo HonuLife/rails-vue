@@ -5,8 +5,8 @@ A starter for working with Rails 7, using Vite as the frontend build tool.
 ## Features
 
 - ✅ TypeScript support
-- ✅ Vue 3
-- ✅ Rails 7
+- ✅ Conditional loading of Vue on a per view basis.
+- ✅ Navigation handled with [TurboDrive](https://turbo.hotwired.dev/handbook/drive)
 
 ## Dev
 
