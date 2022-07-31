@@ -27,11 +27,9 @@ import "@hotwired/turbo-rails";
 // import '~/index.css'
 
 // WindiCSS
-import 'virtual:windi-base.css'
-import 'virtual:windi-components.css'
+import "virtual:windi-base.css";
+import "virtual:windi-components.css";
 
 // Your custom CSS here
-import '~/stylesheets/buttons.css'
-import '~/stylesheets/forms.css'
 
-import 'virtual:windi-utilities.css'
+import "virtual:windi-utilities.css";
