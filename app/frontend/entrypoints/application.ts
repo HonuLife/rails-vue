@@ -31,7 +31,5 @@ import "virtual:windi-base.css";
 import "virtual:windi-components.css";
 
 // Your custom CSS here
-import "~/stylesheets/buttons.css";
-import "~/stylesheets/forms.css";
 
 import "virtual:windi-utilities.css";

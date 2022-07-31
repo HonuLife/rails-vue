@@ -14,7 +14,7 @@
   <%= vite_client_tag %>
   <%= vite_typescript_tag 'application' %>
   <% if defined?(@typescript_entry_page_name) %>
-    <%= vite_typescript_tag "entrypoints/views/#{@typescript_entry_page_name}" %>
+    <%= vite_typescript_tag "entrypoints/views/#{@typescript_entry_page_name}/index" %>
   <% end %>
     <!--
       If using a TypeScript entrypoint file:
