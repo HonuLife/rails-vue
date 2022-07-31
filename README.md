@@ -5,6 +5,8 @@ A starter for working with Rails 7, using Vite as the frontend build tool.
 ## Features
 
 - ✅ TypeScript support
+- ✅ Vue 3
+- ✅ Rails 7
 
 ## Dev
 
