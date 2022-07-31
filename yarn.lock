@@ -3169,6 +3169,7 @@ __metadata:
     vitest: ^0.18.1
     vue: ^3.2.37
     vue-tsc: ^0.38.8
+    vue-turbolinks: ^2.2.2
     windicss: ^3.1.8
   languageName: unknown
   linkType: soft
@@ -4008,6 +4009,13 @@ __metadata:
   bin:
     vue-tsc: bin/vue-tsc.js
   checksum: ec42c9961d19fc8eace019203b397e99115a3dffbcb9914afe4d1a5da521471cf13b6d3945e98497ffeaabcfd813988256a5305e3ccc42bd273dd94fd2b2aa29
+  languageName: node
+  linkType: hard
+
+"vue-turbolinks@npm:^2.2.2":
+  version: 2.2.2
+  resolution: "vue-turbolinks@npm:2.2.2"
+  checksum: ad38b736f5d7372c39d3fa62d24aa35350932f4d15c455cb054adf43d895df296ac14d4960c9dec7208da8a0fd83428fa80803f6e242ee9f6abb75f428950bbe
   languageName: node
   linkType: hard
 
