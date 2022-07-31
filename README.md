@@ -1,4 +1,4 @@
-# README
+# Rails + Vue
 
 A starter for working with Rails 7 + Vue 3, using Vite as the frontend build tool.
 
