@@ -12,7 +12,7 @@ A starter for working with Rails 7, using Vite as the frontend build tool.
 
 ### Setup
 ```
-./bin/setup
+bin/setup
 ```
 
 ### Run app:
